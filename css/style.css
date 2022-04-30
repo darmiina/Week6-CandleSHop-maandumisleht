@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Fjalla+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: bisque;
+}
+
+body {
+    font-family: 'Fjalla One', sans-serif;
+    line-height: 1.5;
+}
+.intro-image {
+    background-image: url('../img/img3.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 950px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+.intro-image__text a {
+    display: inline-block;
+    font-size: 5rem;
+    text-transform: uppercase;
+    background-color: #68492baf;
+    padding: 1.5rem;
+    border: 1px solid #070707c9;
+    transition: all 1s ease-in-out;
+}
+
+.intro-image__text a:hover{
+    transform: scale(1.25);
+}
+
+.intro-text__textbox {
+    text-align: center;
+    display: inline-block;
+    font-size: 5rem;
+    text-transform: uppercase;
+    padding: 5rem;
+    transition: all 1s ease-in-out;
+}
+
+.intro-text__textbox h3 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    text-shadow: 0 0 3px #292116, 0 0 5px rgb(99, 62, 18);
+}
+
+.intro-text {
+    height: 300px;
+    background-color: #a9a78ef8;
+    color: #473023;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-solid {
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.packaging-image {
+    background-image: url('../img/img13.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+.packaging-image__text a {
+    display: inline-block;
+    font-size: 5rem;
+    text-transform: uppercase;
+    background-color: #68492baf;
+    padding: 1.5rem;
+    border: 1px solid #070707c9;
+    transition: all 1s ease-in-out;
+}
+
+.packaging-image__text a:hover {
+    transform: scale(1.25);
+}
+
+.packaging_text__textbox {
+    display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding: 5rem;
+    color:rgb(0, 0, 0);
+    background-color: #a9a78ef8;
+    transition: all 1s ease-in-out;
+    text-align: center;
+}
+
+.packaging_text__textbox h3 {
+    text-transform: uppercase;
+    font-size: 5rem;
+    text-shadow: 0 0 3px #292116, 0 0 5px rgb(99, 62, 18);
+}
+
+.tutorials-image {
+    background-image: url('../img/img9.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 950px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+.tutorials-image__text a {
+    display: inline-block;
+    font-size: 5rem;
+    text-transform: uppercase;
+    background-color: #68492baf;
+    padding: 1.5rem;
+    border: 1px solid #2c2a2ac9;
+    transition: all 1s ease-in-out;
+}
+
+.tutorials-image__text a:hover {
+    transform: scale(1.25);
+}
+
+.footer  {
+    height: 240px;
+    background-color: #a9a78ef8;
+    padding-top: 3rem;
+    margin-top: -3rem;
+    font-size: 3rem;
+    text-align: center;
+    color: #19330e;
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 9%);
+}
+
+.footer ul li {
+    display: inline-block; 
+    margin: 1.5rem;
+    color: #19330e;
+}
+
+.footer ul li a {
+    color: #19330e;
+}
+
+.footer ul li:hover {
+    transform: scale(1.2);
+    color: #19330e;
+}
+
+.wrapper {
+    color: #19330e;
+}
+
+.copyright {
+    color: #19330e;
+}
+
+
+
